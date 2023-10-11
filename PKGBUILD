@@ -11,7 +11,7 @@ arch=(x86_64)
 url='https://github.com/royshil/obs-backgroundremoval'
 license=('GPL2')
 depends=('obs-studio' 'opencv' 'curl')
-makedepends=('cmake')
+makedepends=('cmake' 'ninja')
 source=("${_source}.tar.gz::$url/archive/refs/tags/${pkgver}.tar.gz")
 sha512sums=('30852287afc2258ecda19459ad0b9414b8b9129e5d1419dda956496328586dd66d526de11dc7e34021fd795d27ec9bb27eacf1ace594f15420107a8795cb1a4d')
 

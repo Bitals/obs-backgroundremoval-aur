@@ -6,10 +6,11 @@ pkgbase = obs-backgroundremoval
 	arch = x86_64
 	license = GPL2
 	makedepends = cmake
+	makedepends = ninja
 	depends = obs-studio
 	depends = opencv
 	depends = curl
 	source = obs-backgroundremoval-1.1.7.tar.gz::https://github.com/royshil/obs-backgroundremoval/archive/refs/tags/1.1.7.tar.gz
-	sha256sums = a3bcca2ad66f86d4d0b793895f517b1b5ffc7046655ca17baf3859d7a79fc75c
+	sha512sums = 30852287afc2258ecda19459ad0b9414b8b9129e5d1419dda956496328586dd66d526de11dc7e34021fd795d27ec9bb27eacf1ace594f15420107a8795cb1a4d
 
 pkgname = obs-backgroundremoval
