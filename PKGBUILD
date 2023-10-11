@@ -1,5 +1,6 @@
-# Maintainer: Ng Oon-Ee <n g o o n e e dot t a l k @ gmail dot com>
-# Previously contributed by PedroHLC <root@pedrohlc.com>
+# Maintainer: Bitals <me at bitals dot xyz>
+# Co-maintainer: Ng Oon-Ee <n g o o n e e dot t a l k @ gmail dot com>
+# Co-maintainer: PedroHLC <root@pedrohlc.com>
 pkgname=obs-backgroundremoval
 
 pkgver=1.1.7
