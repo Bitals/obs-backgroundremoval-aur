@@ -2,7 +2,7 @@
 # Previously contributed by PedroHLC <root@pedrohlc.com>
 pkgname=obs-backgroundremoval
 
-pkgver=1.1.3
+pkgver=1.1.7
 pkgrel=1
 pkgdesc='Background removal plugin for OBS studio'
 _source="${pkgname}-${pkgver}"
@@ -13,7 +13,7 @@ license=('GPL2')
 depends=('obs-studio' 'opencv' 'curl')
 makedepends=('cmake')
 source=("${_source}.tar.gz::$url/archive/refs/tags/${pkgver}.tar.gz")
-sha256sums=('a3bcca2ad66f86d4d0b793895f517b1b5ffc7046655ca17baf3859d7a79fc75c')
+sha512sums=('30852287afc2258ecda19459ad0b9414b8b9129e5d1419dda956496328586dd66d526de11dc7e34021fd795d27ec9bb27eacf1ace594f15420107a8795cb1a4d')
 
 build() {
   cd "$_source"
